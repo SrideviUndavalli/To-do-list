@@ -1,0 +1,111 @@
+#download{
+	width: 21%;
+	height: 21%;
+	color: black;
+	font-size:x-large;
+	cursor: pointer;
+	align-items: center;
+	border-radius:3%;
+	border:2px solid black;
+	
+
+}
+
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #e5ecf3;
+			}
+h1{
+	font-style: italic;
+	font-weight:bolder;
+	
+}
+			h1,
+			h2 {
+				text-align: center;
+				margin: 30px 0;
+				font-family:Verdana, Geneva, Tahoma, sans-serif;
+			}
+#b{
+	background-image:linear-gradient(rgb(239, 143, 143),rgb(164, 164, 227));
+}
+#print{
+	background-color:#add8e6;
+}
+			form {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-bottom: 30px;
+			}
+			
+ 
+			 input[type="text"] {
+				padding: 10px;
+				font-size: 18px;
+				border-radius: 5px;
+				border: 1px solid #87cefa;
+				margin-right: 10px;
+				
+			} 
+
+			button[type="submit"] {
+				background-color: #87cefa;
+				color: white;
+				font-size: 18px;
+				padding: 10px 20px;
+				border-radius: 5px;
+				border: none;
+				cursor: pointer;
+				
+			}
+
+			ul {
+				list-style-type: none;
+				padding: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			li {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				width: 80%;
+				padding: 10px;
+				margin-bottom: 10px;
+				background-color: #add8e6;
+				border-radius: 5px;
+				box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+			}
+
+			input[type="checkbox"] {
+				margin-right: 10px;
+			
+
+				
+
+			}
+			
+input.task-text{
+	border: none;
+height:25%;
+font-size: medium;
+color: black;
+
+}
+			button {
+				background-color: #87cefa;
+				color: white;
+				border: none;
+				padding: 5px 10px;
+				border-radius: 5px;
+				cursor: pointer;
+				margin-left: 10px;
+			}
+	input.check{
+		width: 23px;
+		height: 23px;
+	}
+	
